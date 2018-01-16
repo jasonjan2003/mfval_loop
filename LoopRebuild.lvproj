@@ -687,7 +687,6 @@
 			<Item Name="pulse_generator_controls_multiheater_refnums.ctl" Type="VI" URL="../Utility Sub VIs/pulse_generator_controls_multiheater_refnums.ctl"/>
 			<Item Name="pulse_generator_multiheater_controls.ctl" Type="VI" URL="../Utility Sub VIs/pulse_generator_multiheater_controls.ctl"/>
 			<Item Name="pulse_generator_multiheater_refnum.vi" Type="VI" URL="../Utility Sub VIs/pulse_generator_multiheater_refnum.vi"/>
-			<Item Name="pulse_generator_multiheater_refnum_switch_value_getter.vi" Type="VI" URL="../Utility Sub VIs/pulse_generator_multiheater_refnum_switch_value_getter.vi"/>
 			<Item Name="SepLiqInPressure.vi" Type="VI" URL="../Refrigeration Loop/SepLiqInPressure.vi"/>
 			<Item Name="Stop_Global_Variable.vi" Type="VI" URL="../Stop_Global_Variable.vi"/>
 			<Item Name="T_sat_correlation.vi" Type="VI" URL="../Input Processing Sub VIs/T_sat_correlation.vi"/>
@@ -712,6 +711,7 @@
 			<Item Name="sensor_translation.lvlib" Type="Library" URL="../Sensor Translation/sensor_translation.lvlib"/>
 			<Item Name="valve_control.vi" Type="VI" URL="../Utility Sub VIs/valve_control.vi"/>
 			<Item Name="enqueue_dp_data.vi" Type="VI" URL="../Utility Sub VIs/enqueue_dp_data.vi"/>
+			<Item Name="pulse_generator_multiheater_refnum_switch_value_getter.vi" Type="VI" URL="../Utility Sub VIs/pulse_generator_multiheater_refnum_switch_value_getter.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
