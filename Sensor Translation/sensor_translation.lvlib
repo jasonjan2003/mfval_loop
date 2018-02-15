@@ -39,4 +39,5 @@
 	<Item Name="common_sensor_converter.vi" Type="VI" URL="../common_sensor_converter.vi"/>
 	<Item Name="pressure_transducers.vi" Type="VI" URL="../Pressure Transducers/pressure_transducers.vi"/>
 	<Item Name="round_to_decimal.vi" Type="VI" URL="../round_to_decimal.vi"/>
+	<Item Name="setra_2301_002PD_2F2D.vi" Type="VI" URL="../Pressure Transducers/Setra/setra_2301_002PD_2F2D.vi"/>
 </Library>
