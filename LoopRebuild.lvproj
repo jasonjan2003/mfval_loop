@@ -134,13 +134,12 @@
 		<Item Name="pulse_generator_refnum_2.vi" Type="VI" URL="../Utility Sub VIs/pulse_generator_refnum_2.vi"/>
 		<Item Name="sim_signal.vi" Type="VI" URL="../sim_signal.vi"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
-		<Item Name="test_section_daqmx_task.vi" Type="VI" URL="../test_section_daqmx_task.vi"/>
+		<Item Name="control_daqmx_task.vi" Type="VI" URL="../control_daqmx_task.vi"/>
 		<Item Name="test_section_physical_channels.ctl" Type="VI" URL="../Input Channel Lists/test_section_physical_channels.ctl"/>
 		<Item Name="valve_control_output.vi" Type="VI" URL="../Utility Sub VIs/valve_control_output.vi"/>
-		<Item Name="watchdog_config_channels.ctl" Type="VI" URL="../Input Channel Lists/watchdog_config_channels.ctl"/>
 		<Item Name="while_loop_time.vi" Type="VI" URL="../while_loop_time.vi"/>
-		<Item Name="write_dp_data.vi" Type="VI" URL="../Utility Sub VIs/write_dp_data.vi"/>
-		<Item Name="write_test_section_data.vi" Type="VI" URL="../Utility Sub VIs/write_test_section_data.vi"/>
+		<Item Name="write_data.vi" Type="VI" URL="../Utility Sub VIs/write_data.vi"/>
+		<Item Name="compile_control_data_array.vi" Type="VI" URL="../Utility Sub VIs/compile_control_data_array.vi"/>
 		<Item Name="loop_data_labels.vi" Type="VI" URL="../Utility Sub VIs/loop_data_labels.vi"/>
 		<Item Name="window_heater_physical_channels.ctl" Type="VI" URL="../Input Channel Lists/window_heater_physical_channels.ctl"/>
 		<Item Name="pressure_temp_mixture.ctl" Type="VI" URL="../Utility Sub VIs/pressure_temp_mixture.ctl"/>
@@ -166,6 +165,11 @@
 		<Item Name="pulse_generator_data_v2.vi" Type="VI" URL="../Utility Sub VIs/pulse_generator_data_v2.vi"/>
 		<Item Name="pulse_generator_data_v3.vi" Type="VI" URL="../Utility Sub VIs/pulse_generator_data_v3.vi"/>
 		<Item Name="liquid_temp_psat.vi" Type="VI" URL="../Pulse Generator Sub VIs/liquid_temp_psat.vi"/>
+		<Item Name="enqueue_data.vi" Type="VI" URL="../Utility Sub VIs/enqueue_data.vi"/>
+		<Item Name="loop_data_conversion_factor.vi" Type="VI" URL="../Utility Sub VIs/loop_data_conversion_factor.vi"/>
+		<Item Name="measurement_data_conversion_factor.vi" Type="VI" URL="../Utility Sub VIs/measurement_data_conversion_factor.vi"/>
+		<Item Name="serial_communication.vi" Type="VI" URL="../Network Stream Sub VIs/serial_communication.vi"/>
+		<Item Name="network_stream_writer.vi" Type="VI" URL="../Network Stream Sub VIs/network_stream_writer.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="__closeStorageFromObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__closeStorageFromObject.vi"/>
@@ -665,10 +669,20 @@
 				<Item Name="DWDT Get Waveform Time Array.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Get Waveform Time Array.vi"/>
 				<Item Name="DWDT Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital Size.vi"/>
 				<Item Name="DAQmx Reset Device.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/system.llb/DAQmx Reset Device.vi"/>
+				<Item Name="Stream Element Allocation Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/dex/Stream Element Allocation Mode.ctl"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
+				<Item Name="VISA Set IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Set IO Buffer Mask.ctl"/>
+				<Item Name="DAQmx Read (Analog Wfm 1Chan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog Wfm 1Chan NSamp Duration).vi"/>
+				<Item Name="DAQmx Read (Analog 1D Wfm NChan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan NSamp Duration).vi"/>
+				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi"/>
+				<Item Name="DAQmx Read (Digital 1D Wfm NChan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Wfm NChan NSamp Duration).vi"/>
 			</Item>
 			<Item Name="2D-array-to-cluster.vi" Type="VI" URL="../Utility Sub VIs/2D-array-to-cluster.vi"/>
 			<Item Name="AbsolutePressure.vi" Type="VI" URL="../Refrigeration Loop/AbsolutePressure.vi"/>
-			<Item Name="float_switch_check_debug.vi" Type="VI" URL="../Utility Sub VIs/float_switch_check_debug.vi"/>
+			<Item Name="float_switch_check.vi" Type="VI" URL="../Utility Sub VIs/float_switch_check.vi"/>
 			<Item Name="GagePressure.vi" Type="VI" URL="../Refrigeration Loop/GagePressure.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
@@ -696,7 +710,6 @@
 			<Item Name="VapTankVapInPressure.vi" Type="VI" URL="../Refrigeration Loop/VapTankVapInPressure.vi"/>
 			<Item Name="valve_pid_control.ctl" Type="VI" URL="../Utility Sub VIs/valve_pid_control.ctl"/>
 			<Item Name="dP_data_labels.vi" Type="VI" URL="../Utility Sub VIs/dP_data_labels.vi"/>
-			<Item Name="pulse_generator_data_daqmx.vi" Type="VI" URL="../Utility Sub VIs/pulse_generator_data_daqmx.vi"/>
 			<Item Name="current_to_dp.vi" Type="VI" URL="../Pulse Generator Sub VIs/current_to_dp.vi"/>
 			<Item Name="vapor_temp_psat_density.vi" Type="VI" URL="../Pulse Generator Sub VIs/vapor_temp_psat_density.vi"/>
 			<Item Name="pitot_dP.vi" Type="VI" URL="../Pulse Generator Sub VIs/pitot_dP.vi"/>
@@ -706,8 +719,9 @@
 			<Item Name="offset_parameters.ctl" Type="VI" URL="../offset_parameters.ctl"/>
 			<Item Name="sensor_translation.lvlib" Type="Library" URL="../Sensor Translation/sensor_translation.lvlib"/>
 			<Item Name="valve_control.vi" Type="VI" URL="../Utility Sub VIs/valve_control.vi"/>
-			<Item Name="enqueue_dp_data.vi" Type="VI" URL="../Utility Sub VIs/enqueue_dp_data.vi"/>
 			<Item Name="pulse_generator_multiheater_refnum_switch_value_getter.vi" Type="VI" URL="../Utility Sub VIs/pulse_generator_multiheater_refnum_switch_value_getter.vi"/>
+			<Item Name="diode_charts.ctl" Type="VI" URL="../Utility Sub VIs/diode_charts.ctl"/>
+			<Item Name="measurement_daqmx_task.vi" Type="VI" URL="../Utility Sub VIs/measurement_daqmx_task.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
