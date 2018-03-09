@@ -171,6 +171,9 @@
 		<Item Name="serial_communication.vi" Type="VI" URL="../Network Stream Sub VIs/serial_communication.vi"/>
 		<Item Name="network_stream_writer.vi" Type="VI" URL="../Network Stream Sub VIs/network_stream_writer.vi"/>
 		<Item Name="brians_diode_screen.vi" Type="VI" URL="../Utility Sub VIs/brians_diode_screen.vi"/>
+		<Item Name="analog_data.ctl" Type="VI" URL="../../../Box/Annular Flow/Jason/LabVIEW 2017/Input Channel Lists/analog_data.ctl"/>
+		<Item Name="analog_data_channel_pkg.ctl" Type="VI" URL="../../../Box/Annular Flow/Jason/LabVIEW 2017/Input Channel Lists/analog_data_channel_pkg.ctl"/>
+		<Item Name="input_channel_tester_v2.vi" Type="VI" URL="../../../Box/Annular Flow/Jason/LabVIEW 2017/Input Channel Lists/input_channel_tester_v2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="__closeStorageFromObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__closeStorageFromObject.vi"/>
@@ -680,6 +683,7 @@
 				<Item Name="DAQmx Read (Analog 1D Wfm NChan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan NSamp Duration).vi"/>
 				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi"/>
 				<Item Name="DAQmx Read (Digital 1D Wfm NChan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Wfm NChan NSamp Duration).vi"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 			</Item>
 			<Item Name="2D-array-to-cluster.vi" Type="VI" URL="../Utility Sub VIs/2D-array-to-cluster.vi"/>
 			<Item Name="AbsolutePressure.vi" Type="VI" URL="../Refrigeration Loop/AbsolutePressure.vi"/>
@@ -723,6 +727,8 @@
 			<Item Name="pulse_generator_multiheater_refnum_switch_value_getter.vi" Type="VI" URL="../Utility Sub VIs/pulse_generator_multiheater_refnum_switch_value_getter.vi"/>
 			<Item Name="diode_charts.ctl" Type="VI" URL="../Utility Sub VIs/diode_charts.ctl"/>
 			<Item Name="measurement_daqmx_task.vi" Type="VI" URL="../Utility Sub VIs/measurement_daqmx_task.vi"/>
+			<Item Name="input_channel.ctl" Type="VI" URL="../Input Channel Lists/input_channel.ctl"/>
+			<Item Name="input_channel_task.vi" Type="VI" URL="../Input Channel Lists/input_channel_task.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
