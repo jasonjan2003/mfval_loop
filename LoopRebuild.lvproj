@@ -174,6 +174,8 @@
 		<Item Name="analog_data.ctl" Type="VI" URL="../../../Box/Annular Flow/Jason/LabVIEW 2017/Input Channel Lists/analog_data.ctl"/>
 		<Item Name="analog_data_channel_pkg.ctl" Type="VI" URL="../../../Box/Annular Flow/Jason/LabVIEW 2017/Input Channel Lists/analog_data_channel_pkg.ctl"/>
 		<Item Name="input_channel_tester_v2.vi" Type="VI" URL="../../../Box/Annular Flow/Jason/LabVIEW 2017/Input Channel Lists/input_channel_tester_v2.vi"/>
+		<Item Name="find_analog_data.vi" Type="VI" URL="../Input Channel Lists/find_analog_data.vi"/>
+		<Item Name="find_label_indicies.vi" Type="VI" URL="../Input Channel Lists/find_label_indicies.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="__closeStorageFromObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__closeStorageFromObject.vi"/>
