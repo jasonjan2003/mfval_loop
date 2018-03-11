@@ -119,7 +119,7 @@
 		<Item Name="log_file_selector.ctl" Type="VI" URL="../Utility Sub VIs/log_file_selector.ctl"/>
 		<Item Name="loop_time.vi" Type="VI" URL="../Utility Sub VIs/loop_time.vi"/>
 		<Item Name="main_loop_calculation.vi" Type="VI" URL="../Utility Sub VIs/main_loop_calculation.vi"/>
-		<Item Name="mass_flow_rate.vi" Type="VI" URL="../Pulse Generator Sub VIs/mass_flow_rate.vi"/>
+		<Item Name="mass_flow_rate_element.vi" Type="VI" URL="../Pulse Generator Sub VIs/mass_flow_rate_element.vi"/>
 		<Item Name="max_flow_correlation.vi" Type="VI" URL="../Utility Sub VIs/max_flow_correlation.vi"/>
 		<Item Name="pg_control_physical_channels.ctl" Type="VI" URL="../Input Channel Lists/pg_control_physical_channels.ctl"/>
 		<Item Name="PID_controls.ctl" Type="VI" URL="../Utility Sub VIs/PID_controls.ctl"/>
@@ -176,6 +176,13 @@
 		<Item Name="input_channel_tester_v2.vi" Type="VI" URL="../../../Box/Annular Flow/Jason/LabVIEW 2017/Input Channel Lists/input_channel_tester_v2.vi"/>
 		<Item Name="find_analog_data.vi" Type="VI" URL="../Input Channel Lists/find_analog_data.vi"/>
 		<Item Name="find_label_indicies.vi" Type="VI" URL="../Input Channel Lists/find_label_indicies.vi"/>
+		<Item Name="data_picker.vi" Type="VI" URL="../Input Channel Lists/data_picker.vi"/>
+		<Item Name="vapor_density.vi" Type="VI" URL="../Input Channel Lists/vapor_density.vi"/>
+		<Item Name="refnum_array_cluster.ctl" Type="VI" URL="../Input Channel Lists/refnum_array_cluster.ctl"/>
+		<Item Name="label_array_cluster.ctl" Type="VI" URL="../Input Channel Lists/label_array_cluster.ctl"/>
+		<Item Name="index_array_cluster.ctl" Type="VI" URL="../Input Channel Lists/index_array_cluster.ctl"/>
+		<Item Name="mock.vi" Type="VI" URL="../Input Channel Lists/mock.vi"/>
+		<Item Name="data_processor.vi" Type="VI" URL="../Input Channel Lists/data_processor.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="__closeStorageFromObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__closeStorageFromObject.vi"/>
@@ -728,9 +735,9 @@
 			<Item Name="valve_control.vi" Type="VI" URL="../Utility Sub VIs/valve_control.vi"/>
 			<Item Name="pulse_generator_multiheater_refnum_switch_value_getter.vi" Type="VI" URL="../Utility Sub VIs/pulse_generator_multiheater_refnum_switch_value_getter.vi"/>
 			<Item Name="diode_charts.ctl" Type="VI" URL="../Utility Sub VIs/diode_charts.ctl"/>
-			<Item Name="measurement_daqmx_task.vi" Type="VI" URL="../Utility Sub VIs/measurement_daqmx_task.vi"/>
 			<Item Name="input_channel.ctl" Type="VI" URL="../Input Channel Lists/input_channel.ctl"/>
 			<Item Name="input_channel_task.vi" Type="VI" URL="../Input Channel Lists/input_channel_task.vi"/>
+			<Item Name="mass_flow_rate.vi" Type="VI" URL="../Pulse Generator Sub VIs/mass_flow_rate.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
