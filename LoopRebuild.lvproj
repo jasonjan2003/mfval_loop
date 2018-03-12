@@ -183,6 +183,8 @@
 		<Item Name="index_array_cluster.ctl" Type="VI" URL="../Input Channel Lists/index_array_cluster.ctl"/>
 		<Item Name="mock.vi" Type="VI" URL="../Input Channel Lists/mock.vi"/>
 		<Item Name="data_processor.vi" Type="VI" URL="../Input Channel Lists/data_processor.vi"/>
+		<Item Name="add_entry.vi" Type="VI" URL="../Input Channel Lists/add_entry.vi"/>
+		<Item Name="input_channel_task.vi" Type="VI" URL="../Input Channel Lists/input_channel_task.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="__closeStorageFromObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__closeStorageFromObject.vi"/>
@@ -723,7 +725,6 @@
 			<Item Name="VapIn.vi" Type="VI" URL="../Refrigeration Loop/VapIn.vi"/>
 			<Item Name="VapTankVapInPressure.vi" Type="VI" URL="../Refrigeration Loop/VapTankVapInPressure.vi"/>
 			<Item Name="valve_pid_control.ctl" Type="VI" URL="../Utility Sub VIs/valve_pid_control.ctl"/>
-			<Item Name="dP_data_labels.vi" Type="VI" URL="../Utility Sub VIs/dP_data_labels.vi"/>
 			<Item Name="current_to_dp.vi" Type="VI" URL="../Pulse Generator Sub VIs/current_to_dp.vi"/>
 			<Item Name="vapor_temp_psat_density.vi" Type="VI" URL="../Pulse Generator Sub VIs/vapor_temp_psat_density.vi"/>
 			<Item Name="pitot_dP.vi" Type="VI" URL="../Pulse Generator Sub VIs/pitot_dP.vi"/>
@@ -736,7 +737,6 @@
 			<Item Name="pulse_generator_multiheater_refnum_switch_value_getter.vi" Type="VI" URL="../Utility Sub VIs/pulse_generator_multiheater_refnum_switch_value_getter.vi"/>
 			<Item Name="diode_charts.ctl" Type="VI" URL="../Utility Sub VIs/diode_charts.ctl"/>
 			<Item Name="input_channel.ctl" Type="VI" URL="../Input Channel Lists/input_channel.ctl"/>
-			<Item Name="input_channel_task.vi" Type="VI" URL="../Input Channel Lists/input_channel_task.vi"/>
 			<Item Name="mass_flow_rate.vi" Type="VI" URL="../Pulse Generator Sub VIs/mass_flow_rate.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
