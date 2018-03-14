@@ -185,6 +185,7 @@
 		<Item Name="data_processor.vi" Type="VI" URL="../Input Channel Lists/data_processor.vi"/>
 		<Item Name="add_entry.vi" Type="VI" URL="../Input Channel Lists/add_entry.vi"/>
 		<Item Name="input_channel_task.vi" Type="VI" URL="../Input Channel Lists/input_channel_task.vi"/>
+		<Item Name="data_distributor.vi" Type="VI" URL="../Input Channel Lists/data_distributor.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="__closeStorageFromObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__closeStorageFromObject.vi"/>
