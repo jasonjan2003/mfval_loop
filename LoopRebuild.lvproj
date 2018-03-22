@@ -184,6 +184,8 @@
 		<Item Name="input_channel_task.vi" Type="VI" URL="../Input Channel Lists/input_channel_task.vi"/>
 		<Item Name="data_distributor.vi" Type="VI" URL="../Input Channel Lists/data_distributor.vi"/>
 		<Item Name="data_distributor_naive.vi" Type="VI" URL="../Input Channel Lists/data_distributor_naive.vi"/>
+		<Item Name="build_labels.vi" Type="VI" URL="../Input Channel Lists/build_labels.vi"/>
+		<Item Name="edit_entry.vi" Type="VI" URL="../Input Channel Lists/edit_entry.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -458,6 +460,12 @@
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="VISA Set IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Set IO Buffer Mask.ctl"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+				<Item Name="DAQmx Read (Analog Wfm 1Chan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog Wfm 1Chan NSamp Duration).vi"/>
+				<Item Name="DAQmx Read (Analog 1D Wfm NChan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan NSamp Duration).vi"/>
+				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi"/>
+				<Item Name="DAQmx Read (Digital 1D Wfm NChan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Wfm NChan NSamp Duration).vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 			</Item>
 			<Item Name="2D-array-to-cluster.vi" Type="VI" URL="../Utility Sub VIs/2D-array-to-cluster.vi"/>
 			<Item Name="float_switch_check.vi" Type="VI" URL="../Utility Sub VIs/float_switch_check.vi"/>
@@ -478,7 +486,6 @@
 			<Item Name="vapor_temp_psat_density.vi" Type="VI" URL="../Pulse Generator Sub VIs/vapor_temp_psat_density.vi"/>
 			<Item Name="pitot_dP.vi" Type="VI" URL="../Pulse Generator Sub VIs/pitot_dP.vi"/>
 			<Item Name="test_section_dP.vi" Type="VI" URL="../Pulse Generator Sub VIs/test_section_dP.vi"/>
-			<Item Name="pulse_generator_input_physical_channels.ctl" Type="VI" URL="../Input Channel Lists/pulse_generator_input_physical_channels.ctl"/>
 			<Item Name="valve_physical_channels.ctl" Type="VI" URL="../Input Channel Lists/valve_physical_channels.ctl"/>
 			<Item Name="offset_parameters.ctl" Type="VI" URL="../offset_parameters.ctl"/>
 			<Item Name="sensor_translation.lvlib" Type="Library" URL="../Sensor Translation/sensor_translation.lvlib"/>
@@ -487,6 +494,7 @@
 			<Item Name="diode_charts.ctl" Type="VI" URL="../Utility Sub VIs/diode_charts.ctl"/>
 			<Item Name="input_channel.ctl" Type="VI" URL="../Input Channel Lists/input_channel.ctl"/>
 			<Item Name="mass_flow_rate.vi" Type="VI" URL="../Pulse Generator Sub VIs/mass_flow_rate.vi"/>
+			<Item Name="pulse_generator_input_physical_channels.ctl" Type="VI" URL="../Input Channel Lists/pulse_generator_input_physical_channels.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
