@@ -494,7 +494,6 @@
 			<Item Name="diode_charts.ctl" Type="VI" URL="../Utility Sub VIs/diode_charts.ctl"/>
 			<Item Name="input_channel.ctl" Type="VI" URL="../Input Channel Lists/input_channel.ctl"/>
 			<Item Name="mass_flow_rate.vi" Type="VI" URL="../Pulse Generator Sub VIs/mass_flow_rate.vi"/>
-			<Item Name="pulse_generator_input_physical_channels.ctl" Type="VI" URL="../Input Channel Lists/pulse_generator_input_physical_channels.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
